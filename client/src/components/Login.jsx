@@ -5,8 +5,8 @@ import { Navigate } from "react-router-dom";
 
 export default function Login() {
   const [login, setIsLogIn] = useState(false);
-  const [email, setEmail] = "";
-  const [password, setPassword] = "";
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = async(e) => {
     e.preventDefault();
@@ -48,7 +48,7 @@ export default function Login() {
     >
       <svg
         aria-hidden="true"
-        class="native svg-icon iconLogoGlyphMd"
+        className="native svg-icon iconLogoGlyphMd"
         width="32"
         height="37"
         viewBox="0 0 32 37"

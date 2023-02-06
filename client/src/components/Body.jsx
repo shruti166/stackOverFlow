@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Body() {
   return (
     <div>
       <h2>Top Questions</h2>
-      <button>Ask Question</button>
+      <Link to = "/add"><button>Ask Question</button></Link>
       <div className="allQuestion" style = {{display: "flex", flexDirection: "column"}}>
         <div className="q1" >
         <span style = {{color: "#0995FF", fontSize: "20px"}}>

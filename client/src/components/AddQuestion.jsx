@@ -18,7 +18,7 @@ export default function AddQuestion() {
           
         };
         await axios
-          .post("/api/user/ques", questData)
+          .post("/user/ques", questData)
           .then((res) => {
             console.log(res.data);
             alert("Question added successfully");

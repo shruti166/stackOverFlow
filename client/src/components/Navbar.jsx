@@ -32,5 +32,7 @@ export default function Navbar() {
   <Link to = "/signUp"><button className="btn btn-outline" style = {{margin: "20px auto"}}>New User ? Sign Up here</button></Link>
   
   <Link to = "/login"><button className="btn btn-outline">Have an account ? LogIn</button></Link>
+
+  <Link to = "/add"><button className="btn btn-outline">Ask a Question</button></Link>
   </div>;
 }
